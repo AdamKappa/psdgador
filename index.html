@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Find clothes that match your style. Explore top brands, shop new arrivals, and browse different styles.">
+    <title>Shop.co</title>
+
+    <!-- Fonts CDN -->
+    <link href="https://fonts.cdnfonts.com/css/satoshi" rel="stylesheet">
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Required Slick CSS for the structure only -->
+    <link href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.css" rel="stylesheet">
+    <!-- Template styles -->
+    <link rel="stylesheet" href="./assets/css/styles.css">
+
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="promo-bar">
+            <div class="promo-bar-content">
+                <p>Sign up and get 20% off on your first order. <a href="#">Sign Up Now</a></p>
+                <button class="promo-bar-close-btn"><img src="./assets/images/close-icon.png" alt="close" ></button>
+            </div>
+        </div>
+        <nav class="nav-bar">
+            <div class="menu-wrapper">
+                <div class="mobile-menu" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <div class="logo">
+                    <a href="#">SHOP.CO</a>
+                </div>
+                <ul class="nav-links" id="nav-links">
+                    <li class="menu-item">
+                        <a href="#" aria-label="Shop">Shop<img src="./assets/images/menu-down-arrow.svg" alt="open Shop submenu" class="shop-menu-arrow"></a>
+                        <ul class="submenu">
+                            <li><a href="#" aria-label="Men">Men</a></li>
+                            <li><a href="#" aria-label="Women">Women</a></li>
+                            <li><a href="#" aria-label="Kids">Kids</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#" aria-label="On Sale">On Sale</a></li>
+                    <li><a href="#" aria-label="New Arrivals">New Arrivals</a></li>
+                    <li><a href="#" aria-label="Brands">Brands</a></li>
+                </ul>
+            </div>
+            
+            <div class="search-cart-profile">
+                <div class="input-group search-input">
+                    <button class="search-btn" type="button" id="search-button"><img src="./assets/images/search-icon.png" alt="search"></button>
+                    <input type="search" aria-label="Search for products" placeholder="Search for products..." aria-describedby="search-button">
+                </div>
+                <button class="cart-btn" aria-label="View Cart" ><img src="./assets/images/search-icon-mobile.png" alt="shopping cart"></button>
+                <button class="cart-btn" aria-label="View Cart" ><img src="./assets/images/shopping-cart-icon.png" alt="shopping cart"></button>
+                <button class="profile-btn"aria-label="View Profile" ><img src="./assets/images/user-icon.png" alt="user account"></button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main -->
+    <main>
+        <!-- Featured Section -->
+        <section class="featured">
+            <div class="featured-container">
+                <div class="featured-text">
+                    <h1>Find Clothes That Match Your Style</h1>
+                    <p>Browse through our diverse range of meticulously crafted garments, designed to bring out your individuality and cater to your sense of style.</p>
+                    <a href="#" class="shop-now-btn" aria-label="Shop Now">Shop Now</a>
+                </div>
+                <div class="featured-image">
+                    <picture>
+                        <source media="(max-width: 768px)" srcset="./assets/images/featured/featured-image-small.png">
+                        <source media="(min-width: 769px)" srcset="./assets/images/featured/featured-image-large.png">
+                        <img src="./assets/images/featured/featured-image-large.png" alt="two fashion models showcasing clothing styles">
+                    </picture>
+                    
+                </div>
+            </div>
+        </section>
+
+        <!-- Brands Section -->
+        <section class="brands">
+            <div class="brands-content">
+                <ul>
+                    <li><a href="#"><img src="./assets/images/brands/versace-logo.png" alt="Versace"></a></li>
+                    <li><a href="#"><img src="./assets/images/brands/zara-logo.png" alt="Zara"></a></li>
+                    <li><a href="#"><img src="./assets/images/brands/gucci-logo.png" alt="Gucci"></a></li>
+                    <li><a href="#"><img src="./assets/images/brands/prada-logo.png" alt="Prada"></a></li>
+                    <li><a href="#"><img src="./assets/images/brands/calvin-klein-logo.png" alt="Calvin Klein"></a></li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- New Arrivals Section -->
+        <section class="new-arrivals">
+            <h2>New Arrivals</h2>
+            <div class="new-arrivals-container">
+                <article>
+                    <a href="#">
+                        <img src="./assets/images/arivals/arrival_1.png" alt="T-shirt with Tape Details">
+                        <h3>T-shirt with Tape Details</h3>
+                        <p>$120</p>
+                    </a>
+                </article>
+                <article>
+                    <a href="#">
+                        <img src="./assets/images/arivals/arrival_2.png" alt="Skinny Fit Jeans">
+                        <h3>Skinny Fit Jeans</h3>
+                        <p>$240</p>
+                    </a>
+                </article>
+                <article>
+                    <a href="#">
+                        <img src="./assets/images/arivals/arrival_3.png" alt="Checkered Shirt">
+                        <h3>Checkered Shirt</h3>
+                        <p>$180</p>
+                    </a>
+                </article>
+                <article>
+                    <a href="#">
+                        <img src="./assets/images/arivals/arrival_4.png" alt="Sleeve Striped T-shirt">
+                        <h3>Sleeve Striped T-shirt</h3>
+                        <p>$130</p>
+                    </a>
+                </article>
+            </div>
+            <div class="view-all-btn-container">
+                <a href="#" class="view-all-btn">View All</a>
+            </div>
+        </section>
+
+        <!-- Browse by Dress Style Section -->
+        <section class="dress-style">
+            <h2>Browse by Dress Style</h2>
+            <div class="dress-style-container">
+                <div class="dress-style-item">
+                    <article>
+                        <img src="./assets/images/styles/casual.png" alt="Casual style">
+                        <h3>Casual</h3>
+                    </article>
+                </div>
+                <div class="dress-style-item">
+                    <article>
+                        <img src="./assets/images/styles/formal.png" alt="Formal style">
+                        <h3>Formal</h3>
+                    </article>
+                </div>
+                <div class="dress-style-item">
+                    <article>
+                        <img src="./assets/images/styles/party.png" alt="Party style">
+                        <h3>Party</h3>
+                    </article>
+                </div>
+                <div class="dress-style-item">
+                    <article>
+                        <img src="./assets/images/styles/gym.png" alt="Gym style">
+                        <h3>Gym</h3>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Customer Reviews Section -->
+        <section class="reviews" aria-labelledby="reviews-heading">
+            <div class="reviews-header" >
+                <h2 id="reviews-heading">Our Happy Customers</h2>
+                <div class="arrows-container">
+                    <button class="carousel-prev"><img src="./assets/images/arrow-left.svg" alt="left arrow"  /></button>
+                    <button class="carousel-next"><img src="./assets/images/arrow-right.svg" alt="right arrow" /></button>
+                </div>
+            </div>
+            <div class="reviews-container">
+                <article class="reviews-item">
+                    <div class="review-rating">
+                        <img src="./assets/images/Star.svg">
+                        <img src="./assets/images/Star.svg">
+                        <img src="./assets/images/Star.svg">
+                        <img src="./assets/images/Star.svg">
+                        <img src="./assets/images/Star.svg">
+                    </div>
+                    <h3>Sarah M. <span class="verified"><img src="./assets/images/verified.svg"></span></h3>
+                    <p>"I'm blown away by the quality and style of the clothes I received from Shop.co. From casual wear to elegant dresses, every piece I've bought has exceeded my expectations."</p>
+                </article>
+            
+                <article class="reviews-item">
+                    <div class="review-rating">
+                        <img src="./assets/images/Star.svg">
+                        <img src="./assets/images/Star.svg">
+                        <img src="./assets/images/Star.svg">
+                        <img src="./assets/images/Star.svg">
+                        <img src="./assets/images/Star.svg">
+                    </div>
+                    <h3>Alex K. <span class="verified"><img src="./assets/images/verified.svg"></span></h3>
+                    <p>"Finding clothes that align with my personal style used to be a challenge until I discovered Shop.co. The range of options they offer is truly remarkable, catering to a variety of tastes and occasions."</p>
+                </article>
+            
+                <article class="reviews-item">
+                    <div class="review-rating">
+                        <img src="./assets/images/Star.svg">
+                        <img src="./assets/images/Star.svg">
+                        <img src="./assets/images/Star.svg">
+                        <img src="./assets/images/Star.svg">
+                        <img src="./assets/images/Star.svg">
+                    </div>
+                    <h3>James L. <span class="verified"><img src="./assets/images/verified.svg"></span></h3>
+                    <p>"As someone who's always on the lookout for unique fashion pieces, I'm thrilled to have stumbled upon Shop.co. The selection of clothes is not only diverse but also on-point with the latest trends."</p>
+                </article>
+
+                <article class="reviews-item">
+                    <div class="review-rating">
+                        <img src="./assets/images/Star.svg">
+                        <img src="./assets/images/Star.svg">
+                        <img src="./assets/images/Star.svg">
+                        <img src="./assets/images/Star.svg">
+                        <img src="./assets/images/Star.svg">
+                    </div>
+                    <h3>Moora S. <span class="verified"><img src="./assets/images/verified.svg"></span></h3>
+                    <p>"Shopping at Shop.co has been a game-changer for me. The fit and quality of the clothes are unmatched, and their customer service is always helpful!"</p>
+                </article>
+        
+                <article class="reviews-item">
+                    <div class="review-rating">
+                        <img src="./assets/images/Star.svg">
+                        <img src="./assets/images/Star.svg">
+                        <img src="./assets/images/Star.svg">
+                        <img src="./assets/images/Star.svg">
+                        <img src="./assets/images/Star.svg">
+                    </div>
+                    <h3>Pola S. <span class="verified"><img src="./assets/images/verified.svg"></span></h3>
+                    <p>"Shopping at Shop.co has been a game-changer for me. The fit and quality of the clothes are unmatched, and their customer service is always helpful!"</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Newsletter Signup Section -->
+        <section class="newsletter" aria-labelledby="newsletter-heading">
+            <div class="newsletter-container">
+                <h2 id="newsletter-heading">Stay up to date about our latest offers</h2>
+                <div class="form-wrapper">
+                    <form action="">
+                        <div class="newsletter-form">
+                            <div class="input-group">
+                                <img src="./assets/images/email.png" class="email-icon" alt="email input">
+                                <input class="email-input" type="email" aria-label="Enter your email address" placeholder="Enter your email address" aria-describedby="newsletter-button">
+                            </div>
+                            <button type="submit" class="newtletter-btn" id="newsletter-button">Subscribe to Newsletter</button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <!--Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="our-brand">
+                <h3>SHOP.CO</h3>
+                <p>We have clothes that suit your style and which you're proud to wear. From women to men.</p>
+                <div class="social">
+                    <a href="#" aria-label="Twitter"><img src="assets/images/social/twitterX.svg"></a>
+                    <a href="#" aria-label="Facebook"><img src="assets/images/social/facebook.svg"></a>
+                    <a href="#" aria-label="Instagram"><img src="assets/images/social/instagram.svg"></a>
+                    <a href="#" aria-label="GitHub"><img src="assets/images/social/github.svg"></a>
+                </div>
+            </div>
+
+            <div class="sitemap">
+                <div class="sitemap-section">
+                    <h4>COMPANY</h4>
+                    <ul>
+                    <li><a href="#" aria-label="About">About</a></li>
+                    <li><a href="#" aria-label="Features">Features</a></li>
+                    <li><a href="#" aria-label="Works">Works</a></li>
+                    <li><a href="#" aria-label="Career">Career</a></li>
+                    </ul>
+                </div>
+
+                <div class="sitemap-section">
+                    <h4>HELP</h4>
+                    <ul>
+                    <li><a href="#" aria-label="Customer Support">Customer Support</a></li>
+                    <li><a href="#" aria-label="Delivery Details">Delivery Details</a></li>
+                    <li><a href="#" aria-label="Terms & Conditions">Terms & Conditions</a></li>
+                    <li><a href="#" aria-label="Privacy Policy">Privacy Policy</a></li>
+                    </ul>
+                </div>
+
+                <div class="sitemap-section">
+                    <h4>FAQ</h4>
+                    <ul>
+                    <li><a href="#" aria-label="Account">Account</a></li>
+                    <li><a href="#" aria-label="Manage Deliveries">Manage Deliveries</a></li>
+                    <li><a href="#" aria-label="Orders">Orders</a></li>
+                    <li><a href="#" aria-label="Payments">Payments</a></li>
+                    </ul>
+                </div>
+
+                <div class="sitemap-section">
+                    <h4>RESOURCES</h4>
+                    <ul>
+                    <li><a href="#" aria-label="Free eBooks">Free eBooks</a></li>
+                    <li><a href="#" aria-label="Development Tutorial">Development Tutorial</a></li>
+                    <li><a href="#" aria-label="How to - Blog">How to - Blog</a></li>
+                    <li><a href="#" aria-label="YouTube Playlist">YouTube Playlist</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; Shop.co 2000-2023, All Rights Reserved</p>
+            <div class="payments">
+                <img src="./assets/images/payments/Visa.svg" alt="Visa">
+                <img src="./assets/images/payments/Mastercard.svg" alt="Mastercard">
+                <img src="./assets/images/payments/Paypal.svg" alt="PayPal"> 
+                <img src="./assets/images/payments/ApplePay.svg" alt="Apple Pay">
+                <img src="./assets/images/payments/GooglePay.svg" alt="Google Pay">
+            </div>
+        </div>
+    </footer>
+    
+    
+    <!-- Include jQuery (required for Slick.js) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Include Slick JS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js "></script>
+    <!-- Link to my External JavaScript -->
+    <script src="./assets/javascript/scripts.js"></script>
+    <script src="./assets/javascript/reviews-slider.js"></script>
+</body>
+</html>
